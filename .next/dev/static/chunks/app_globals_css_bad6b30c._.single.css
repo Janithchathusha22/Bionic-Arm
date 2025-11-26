@@ -785,6 +785,10 @@
     margin-top: calc(var(--spacing) * 4);
   }
 
+  .mt-8 {
+    margin-top: calc(var(--spacing) * 8);
+  }
+
   .mt-auto {
     margin-top: auto;
   }
@@ -2924,6 +2928,10 @@
     transition-delay: .5s;
   }
 
+  .delay-700 {
+    transition-delay: .7s;
+  }
+
   .duration-100 {
     --tw-duration: .1s;
     transition-duration: .1s;
@@ -2982,6 +2990,11 @@
   .delay-500 {
     --tw-animation-delay: .5s;
     animation-delay: .5s;
+  }
+
+  .delay-700 {
+    --tw-animation-delay: .7s;
+    animation-delay: .7s;
   }
 
   .fade-in-0 {
@@ -3526,6 +3539,18 @@
     @supports (color: color-mix(in lab, red, red)) {
       .hover\:border-primary\/40:hover {
         border-color: color-mix(in oklab, var(--primary) 40%, transparent);
+      }
+    }
+  }
+
+  @media (hover: hover) {
+    .hover\:border-primary\/50:hover {
+      border-color: var(--primary);
+    }
+
+    @supports (color: color-mix(in lab, red, red)) {
+      .hover\:border-primary\/50:hover {
+        border-color: color-mix(in oklab, var(--primary) 50%, transparent);
       }
     }
   }
