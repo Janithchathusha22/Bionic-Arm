@@ -1,7 +1,7 @@
 "use client"
 
 import { useEffect, useRef, useState } from "react"
-import { Target, AlertTriangle, Lightbulb, Users } from "lucide-react"
+import { Target, AlertTriangle, Lightbulb, Users, Download } from "lucide-react"
 
 const problemStatements = [
   {
@@ -58,9 +58,8 @@ export function ObjectivesSection() {
       <div className="container mx-auto px-4">
         {/* Section Header */}
         <div
-          className={`text-center max-w-2xl mx-auto mb-16 transition-all duration-700 ${
-            isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
-          }`}
+          className={`text-center max-w-2xl mx-auto mb-16 transition-all duration-700 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
+            }`}
         >
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-sm text-primary mb-4">
             Research Focus
@@ -78,9 +77,8 @@ export function ObjectivesSection() {
           {problemStatements.map((problem, index) => (
             <div
               key={problem.title}
-              className={`glass rounded-2xl p-6 border border-primary/10 hover:border-primary/30 transition-all duration-500 group ${
-                isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
-              }`}
+              className={`glass rounded-2xl p-6 border border-primary/10 hover:border-primary/30 transition-all duration-500 group ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
+                }`}
               style={{ transitionDelay: `${index * 100}ms` }}
             >
               <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
@@ -94,9 +92,8 @@ export function ObjectivesSection() {
 
         {/* Objectives */}
         <div
-          className={`glass rounded-2xl p-8 border border-accent/20 transition-all duration-700 delay-500 ${
-            isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
-          }`}
+          className={`glass rounded-2xl p-8 border border-accent/20 transition-all duration-700 delay-500 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
+            }`}
         >
           <div className="flex items-center gap-3 mb-6">
             <div className="w-10 h-10 rounded-lg bg-accent/10 flex items-center justify-center">
@@ -114,6 +111,26 @@ export function ObjectivesSection() {
               </div>
             ))}
           </div>
+        </div>
+
+        {/* Download Project Proposal Button */}
+        <div
+          className={`mt-8 flex justify-center transition-all duration-700 delay-700 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
+            }`}
+        >
+          <a
+            href="/Piumika_JADN_E2240331_a348a14f3d9e661b4dac3c8a090afeec.pdf"
+            download="Bionic_Arm_Project_Proposal.pdf"
+            className="glass rounded-xl px-6 py-4 border border-primary/20 hover:border-primary/50 transition-all duration-300 group flex items-center gap-3"
+          >
+            <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
+              <Download className="w-5 h-5 text-primary" />
+            </div>
+            <div className="text-left">
+              <p className="text-sm font-semibold text-foreground">Download Project Proposal</p>
+              <p className="text-xs text-muted-foreground">Complete research documentation (PDF)</p>
+            </div>
+          </a>
         </div>
       </div>
     </section>
