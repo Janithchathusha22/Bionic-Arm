@@ -2250,12 +2250,12 @@ function DownloadsSection() {
                                 className: "w-8 h-8 text-primary"
                             }, void 0, false, {
                                 fileName: "[project]/components/downloads-section.tsx",
-                                lineNumber: 37,
+                                lineNumber: 36,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/downloads-section.tsx",
-                            lineNumber: 36,
+                            lineNumber: 35,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2263,7 +2263,7 @@ function DownloadsSection() {
                             children: "Project Proposal"
                         }, void 0, false, {
                             fileName: "[project]/components/downloads-section.tsx",
-                            lineNumber: 39,
+                            lineNumber: 38,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2271,7 +2271,7 @@ function DownloadsSection() {
                             children: "ITE 3962 – Final Year Project Proposal including introduction, background, objectives, proposed solution and technologies"
                         }, void 0, false, {
                             fileName: "[project]/components/downloads-section.tsx",
-                            lineNumber: 40,
+                            lineNumber: 39,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2282,24 +2282,24 @@ function DownloadsSection() {
                                     children: "PDF"
                                 }, void 0, false, {
                                     fileName: "[project]/components/downloads-section.tsx",
-                                    lineNumber: 45,
+                                    lineNumber: 44,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     children: "2.4 MB"
                                 }, void 0, false, {
                                     fileName: "[project]/components/downloads-section.tsx",
-                                    lineNumber: 46,
+                                    lineNumber: 45,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/downloads-section.tsx",
-                            lineNumber: 44,
+                            lineNumber: 43,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                            href: "/documents/bionic-arm-proposal.pdf",
+                            href: "/Piumika_JADN_E2240331_a348a14f3d9e661b4dac3c8a090afeec.pdf",
                             download: "Bionic-Arm-Project-Proposal.pdf",
                             className: "flex items-center justify-center gap-2 w-full py-3 px-6 rounded-lg bg-primary text-primary-foreground hover:bg-primary/90 font-medium transition-colors",
                             children: [
@@ -2307,14 +2307,14 @@ function DownloadsSection() {
                                     className: "w-5 h-5"
                                 }, void 0, false, {
                                     fileName: "[project]/components/downloads-section.tsx",
-                                    lineNumber: 53,
+                                    lineNumber: 52,
                                     columnNumber: 15
                                 }, this),
                                 "Download Proposal"
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/downloads-section.tsx",
-                            lineNumber: 48,
+                            lineNumber: 47,
                             columnNumber: 13
                         }, this)
                     ]

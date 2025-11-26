@@ -29,9 +29,8 @@ export function DownloadsSection() {
       <div className="container mx-auto px-4">
         <div className="flex justify-center">
           <div
-            className={`group glass rounded-2xl p-8 border border-border hover:border-primary/30 transition-all duration-500 hover:-translate-y-2 max-w-md w-full ${
-              isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
-            }`}
+            className={`group glass rounded-2xl p-8 border border-border hover:border-primary/30 transition-all duration-500 hover:-translate-y-2 max-w-md w-full ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
+              }`}
           >
             <div className="w-16 h-16 rounded-xl bg-primary/10 flex items-center justify-center mb-6 group-hover:bg-primary/20 transition-colors mx-auto">
               <FileText className="w-8 h-8 text-primary" />
@@ -46,7 +45,7 @@ export function DownloadsSection() {
               <span>2.4 MB</span>
             </div>
             <a
-              href="/documents/bionic-arm-proposal.pdf"
+              href="/Piumika_JADN_E2240331_a348a14f3d9e661b4dac3c8a090afeec.pdf"
               download="Bionic-Arm-Project-Proposal.pdf"
               className="flex items-center justify-center gap-2 w-full py-3 px-6 rounded-lg bg-primary text-primary-foreground hover:bg-primary/90 font-medium transition-colors"
             >
